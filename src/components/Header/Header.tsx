@@ -19,7 +19,7 @@ export const Header = () => {
             <></>
           ) : (
             <Link to="/cart" className="button button--cart">
-              <span>{cartPrice} $</span>
+              <span>{cartPrice}$</span>
               <div className="button__delimiter"></div>
               <IoCart />
               <span>{size}</span>
